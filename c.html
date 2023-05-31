@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .multiple-images {
+            width: 100%;
+            height: 350px;
+            margin: 1px auto;
+            padding: 20px;
+            background-size: 350px;
+
+            background-image: url(a.png), url(h1.png), url(v2.png);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: left, center, right;
+        }
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 350px;
+            margin: 1px auto;
+            padding: 20px;
+            background-size: 350px;
+
+            background-image: url(a1.png), url(h2.png), url(v3.png);
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: left, center, right;
+            transition: .5s ease;
+
+        }
+        .multiple-images:hover overlay{
+            opacity: 1;
+        }
+        </style>
+        </head>
+
+        <body>
+        <div class="multiple-images"></div>
+
+        </body>
+        </html>

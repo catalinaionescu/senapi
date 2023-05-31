@@ -1,0 +1,53 @@
+.al
+ {
+    object-position: left;
+    width: 350px;
+    display: block;
+    left: 10%;
+    transition: 0.3s ease-in-out;
+    height: auto;}
+
+.al:hover
+{
+    position: absolute;
+    transition: 0.3s ease-in-out;
+
+}
+.vin
+{
+  display: block;
+  width: 350px;
+  height: 350px;
+  object-position: right;
+  right:  10%;
+  transition: 0.3s ease-in-out;
+ }
+ .vin:hover
+ {
+
+  transition: 0.3s ease-in-out;
+  position: absolute;
+ }
+.hod
+{ 
+  display: block;
+  width: 350px;
+  height: 350px;
+  transition: 0.3s ease-in-out;
+    object-position: center;
+}
+
+.hod:hover
+{
+
+position: absolute;
+transition: 0.3s ease-in-out;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+.container:hover .overlay {
+    opacity: 1;
+}

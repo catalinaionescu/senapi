@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .container {
+            position: relative;
+            width: 70%;object-position: inherit;
+
+        }
+
+        .image {
+            width: 350px;
+            height: 350px;
+            object-position: inherit;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;object-position: inherit;
+
+        }
+        .container:hover .overlay {
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+<div style="  display: flex; justify-content: left;">
+<div class="container" >
+    <img src="a.png"  class="image" style="object-position: left">
+    <div class="overlay">
+        <img src="a1.png" class="image" style="object-position: left">
+    </div>
+</div></div>
+
+<div class="container" style="  display: flex; justify-content: center;">
+    <img src="h2.png" class="image" style="object-position: center">
+    <div class="overlay">
+        <img src="h1.png" class="image" style="object-position: center">
+    </div>
+</div>
+
+<div class="container">
+    <img src="v2.png" class="image" style="  display: flex; justify-content: right;">
+    <div class="overlay">
+        <img src="v3.png" class="image" style="object-position: right">
+    </div>
+</div>
+
+</body>
+</html>
