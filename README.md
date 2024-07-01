@@ -1,0 +1,1 @@
+Site web dezvoltat pentru atestat HTML si baze de date in clasa a 12-a. Site-ul e conceput pentru promovarea muzicii create de mine de pe Soundcloud si simularea cazului in care va exista un merchandise. De asemenea, exista si un contact form conectat la o baza de date SQL locala in care pot fi scrise mesaje.
